@@ -1,6 +1,8 @@
 ---
 ---
 
+$orange: #ffbc3f;
+
 *{
 	box-sizing: border-box;
 	padding: 0;
@@ -12,7 +14,15 @@ html, body{
 	font-size: 30px;
 	font-family: arial;
 	background-color: #161616;
-	color: #ffd670;
+	color: $orange;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+@media(max-width: 768px){
+	html, body{
+		font-size: 20px;
+	}
 }
 
 body{
@@ -31,7 +41,7 @@ a{
 	color: white;
 
 	&:hover, &:visited{
-		color: #ffd670;
+		color: $orange;
 	}
 
 	&:active{

@@ -19,10 +19,17 @@ eigll343@newschool.edu
 
 This course serves as a complement to Core Studio Interaction. The assignments are build to work in tandem with the projects students are developing in the studio class. The lab is designed around a series of small workshops that teach beginning and intermediate interaction design through a hands-on engagement with HTML and CSS.
 
-[Syllabus](http://google.com)
+- [Syllabus](http://google.com)
+- [Core Studio Interaction](http://devinwashburn.com/coreinteraction/)
 
 
 # January 22 (Day 1)
 In-class
-- Welcome!
-- Syllabus Review & Class expectations
+- Introductions
+- Term review/class audit
+- What is an HTML page
+- What is github
+
+Assignment
+- make a change to your HTML document and push it to github
+- [Read Toward Aesthetic Guidelines for Painting with the Aid of a Computer](https://s3.amazonaws.com/2b.andydayton.com/readings/molnar-aesthetic.pdf) by Vera Molnar
