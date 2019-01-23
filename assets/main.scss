@@ -2,6 +2,7 @@
 ---
 
 $orange: #ffbc3f;
+$red: #ff4c4c;
 
 *{
 	box-sizing: border-box;
@@ -17,6 +18,7 @@ html, body{
 	color: $orange;
 	width: 100%;
 	overflow-x: hidden;
+	margin-bottom: 5rem;
 }
 
 @media(max-width: 768px){
@@ -29,7 +31,7 @@ body{
 	padding-top: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, li{
+h1, h2, h3, h4, h5, h6, p, ul, li, hr{
 	font-size: 1rem;
 	line-height: 1.3rem;
 	letter-spacing: 0.05rem;
@@ -45,13 +47,20 @@ a{
 	}
 
 	&:active{
-		color: #ff4c4c;
+		color: $red;
 	}
 }
 
 h1, h2, h3, h4, h5, h6, p, ul{
 	margin-bottom: 0.5rem;
 
+}
+
+hr{
+	margin-top: 2rem;
+	height: 2px;
+	border: none;
+	background-color: $red;
 }
 
 ul, li{
@@ -69,17 +78,17 @@ li{
 		width: 0.5rem;
 		height: 0.5rem;
 		border-radius: 0.5rem;
-		background-color: #ff4c4c;
+		background-color: $red;
 	}
 }
 
 h1{
 	margin-top: 1rem;
 	text-transform: uppercase;
-	color: #ff4c4c;
+	color: $red;
 }
 
 h2{
-	color: #ff4c4c;
+	color: $red;
 	font-style: italic;
 }
