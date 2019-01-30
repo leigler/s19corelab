@@ -24,6 +24,16 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 <hr>
 
+# January 30 (Day 2)
+In-class
+- HTML/CSS Typography Walk-through
+- [Typography Exercise](/type)
+- HTML/CSS Positioning
+- [Positioning Exercise](/squares)
+
+Assignment
+- Finish your exercises and upload their respective pages to github. 
+
 # January 22 (Day 1)
 In-class
 - Introductions
