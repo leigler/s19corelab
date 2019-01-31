@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		
+		*{
+			margin: 0;
+		}
+
+		/*  
+
+		h1 is an element tag: 
+		any styles listed inside the "{}" apply to all h1 tags
+
+		*/
+		h1{
+			box-sizing: border-box;
+			margin-top: 0;
+			margin-bottom: 100px;
+			margin-left: 5%;
+			margin-right: 5%;
+			border-top: 3px solid blue;
+			border-bottom: 3px dotted blue;
+			padding-top: 2.5%;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 50px;
+			width: 50%;
+			background-color: red;
+		}
+		
+		
+		h2{
+			display: inline-block;
+			box-sizing: border-box;
+			vertical-align: top;
+			background-color: green;
+			color: white;
+			width: 44.99%;
+			margin-left: 3.33%;
+			margin-right: 1.66%;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 10px;
+			padding-right: 10px; 
+			margin-bottom: 20px;
+		}
+
+		/*
+	
+		#second_h2 is an id. id's define styles for 1 specific element. 
+	
+		*/
+
+		#second_h2{
+			background-color: black;
+			margin-left: 1.66%;
+			margin-right: 3.33%;
+		}
+
+		h3{
+			display: inline-block;
+			width: 33%;
+			box-sizing: border-box;
+			padding: 10px;
+			background-color: pink;
+			margin-bottom: 50px;
+		}
+
+		/* one can list multiple id's, classes, and elements to give them all the same styles */
+		#outer_div, #inner_div{
+			padding: 10px;
+			width: 50%;
+			box-sizing: border-box;
+			display: inline-block;
+		}
+
+		#outer_div{
+			background-color: green;
+		}
+
+		#inner_div{
+			height: 50px;
+			background-color: pink;
+		}
+
+
+		/* .large_square is a class:
+				classes (denoted with ".your_class_name") can be assigned to multiple  elements) */
+
+		.large_square{
+			position: relative;
+			width: 400px;
+			height: 400px;
+			margin: 10px;
+			margin-bottom: 200px;
+			background-color: #840000;
+		}
+
+		.small_square, .middle_square{
+			display: inline-block;
+			vertical-align: bottom;
+		}
+
+		.small_square{
+			width: 25%;
+			height: 25%;
+			margin-top: 50%;
+			background-color: #4400f2;
+		}
+
+		.middle_square{
+			width: 50%;
+			height: 50%;
+			background-color: #f18100;
+		}
+
+		.outer_element{
+			width: 50%;
+			height: 100px;
+			padding: 10px;
+			background-color: red;
+			margin-bottom: 400px;
+			overflow-y: hidden;
+			border-radius: 75px; 
+		}
+		.inner_element{
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+		}
+
+		#new_position{
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			width: 25%;
+			background-color: #008950;
+			height: 100px;
+
+		}
+
+		#menu{
+			position: fixed;
+			top: 10px;
+			left: 0px;
+			width: 100%;
+			height: 50px;
+			background-color: gray;
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+	<!-- 
+
+		this first example outlines the use of the box model:
+		- margin (empty space around an element)
+		- border
+		- padding (the visual edges of an element) 
+		- width
+		- the css property "box-sizing: border-box;" allows the padding to be included in the width property
+		
+
+	-->
+
+	<h1 class="a_header" id="first_id">This first example outlines the box model</h1>
+	
+	<h2>display inline-block: left column</h2
+	><h2 id="second_h2">display inline-block: right column</h2>
+	
+	<h3>first column</h3
+	><h3>second column</h3
+	><h3>third column</h3>
+
+	<!-- nesting divs and the box-model example-->
+	<div id="outer_div">
+		<div id="inner_div"></div>
+	</div>
+
+	<!-- 
+
+		positioning exercise example 
+		found at: http://s19corelab.teachinginter.net/squares/
+
+	-->
+	<div class="large_square">
+		<div class="small_square"></div
+		><div class="middle_square"></div
+		><div class="small_square"></div>
+	</div>
+
+	<!-- outer_element/inner_element  overflow example -->
+	<div class="outer_element">
+		<div class="inner_element"></div>
+	</div>
+
+	<!-- absolute positioning within a relatively positioned parent example -->
+	<div class="large_square">
+		<div id="new_position"></div>	
+	</div>
+	
+	<!-- fixed positioning and nested element example  -->
+	<div id="menu">
+		<p>this is a nested paragraph tag</p>
+	</div>
+	
+
+</body>
+</html>

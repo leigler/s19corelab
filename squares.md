@@ -12,6 +12,8 @@ permalink: /squares/
 
 For this exercise, please reproduce the following square compositions in html and css using only `position: relative;`. Once you've finished, upload your html file to github. 
 
+For reference, see the documentation of January 30th's demo zip: [`jan-30.zip`](../materials/jan-30.zip)
+
 1<br>
 ![square 1](/materials/squares/square-1.jpg)
 
