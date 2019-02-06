@@ -24,6 +24,17 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 <hr>
 
+# February 06 (Day 3)
+In-class
+- HTML/CSS Typographic Styles
+- Media Queries
+- "The Dialogue" Review
+
+Assignment
+- Make a single-page website (and upload it to github) that has three different views—each dependent on a different `@media` breakpoint.<br> Requirements:
+	- Each breakpoint should introduce new content. 
+	- Your site should direct the user to experience all three views.
+
 # January 30 (Day 2)
 In-class
 
