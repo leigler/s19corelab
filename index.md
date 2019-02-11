@@ -28,6 +28,7 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 In-class
 - HTML/CSS Typographic Styles
 - Media Queries
+- [Class Demos on HTML and CSS Typographic Elements and Styles, and Media Queries](/materials/feb-06-demos.zip)
 - "The Dialogue" Review
 
 Assignment
