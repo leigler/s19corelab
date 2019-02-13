@@ -29,7 +29,7 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 In-class
 - Media query review
 - HTML/CSS [Homepage Exercise](/feb-13)
-- CSS Animations
+- CSS Animations ([`animations.zip`](/materials/feb-13.zip))
 
 Assignment
 - For next week, you will use HTML and CSS to create a simple scene and walk cycle (a looping animation) using CSS Animations. Once you're done, please upload your site to github and link to it from your "homepage".
