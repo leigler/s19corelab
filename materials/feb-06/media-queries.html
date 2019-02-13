@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>media queries!</title>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<style type="text/css">
+			
+		html{
+			background-color: DarkOliveGreen;
+		}
+
+		p{
+			color: white;
+			font-size: 30px;
+			letter-spacing: 1px;
+		}
+
+		.boxed{
+			display: inline-block;
+			width: 50%;
+			box-sizing: border-box;
+			padding: 10px; 
+			vertical-align: top;
+		}
+
+
+		.boxed-2{
+			display: none;
+			width: 100%;
+			box-sizing: border-box;
+			padding: 10px; 
+			vertical-align: top;
+		}
+
+
+		@media(max-width: 900px){
+			html{
+				background-color: Olive;
+			}
+
+			p{
+				font-size: 20px;
+			}
+
+		}
+
+
+
+
+		@media(max-width: 800px){
+			html{
+				background-color: OliveDrab;
+			}
+
+			p{
+				font-family: helvetica;
+			}
+
+			.boxed{
+				display: block;
+				width: 100%;
+			}
+
+		}
+
+		@media(max-width: 700px){
+			html{
+				background-color: YellowGreen;
+			}
+		}
+
+		@media(max-width: 600px){
+			html{
+				background-color: LimeGreen;
+			}
+
+			.boxed{
+				display: none;
+			
+			}
+
+			.boxed-2{
+				display: block;
+			}
+		}
+
+
+
+
+
+		/*
+			
+			DarkOliveGreen
+			Olive
+			OliveDrab
+			YellowGreen
+			LimeGreen
+			Lime
+			LawnGreen
+			Chartreuse
+
+		*/
+
+
+
+
+	</style>
+
+</head>
+<body>
+	<p>Media Queries!</p>
+
+
+	<p class="boxed">
+		Nulla id fringilla sem. Quisque id consequat mauris. Nunc ac luctus massa, nec tincidunt neque. Vestibulum malesuada porta pulvinar. Quisque massa tortor, fringilla ut maximus nec, tempus ut metus. In tempus, elit ut fermentum tempor, massa enim suscipit sem, nec egestas mi risus vel erat. In eu sollicitudin purus. Duis vel orci id nibh vehicula iaculis.
+	</p
+	><p class="boxed">
+		Nam pretium libero a purus accumsan, sit amet finibus elit condimentum. Maecenas consequat dolor sit amet odio ultricies, auctor imperdiet purus congue. Duis interdum sollicitudin dolor, non faucibus leo tristique ac. Suspendisse vitae mi id ligula scelerisque fringilla. Vestibulum ac mattis neque.
+	</p>
+
+	<p class="boxed-2">this is hidden</p>
+
+
+
+
+</body>
+</html>

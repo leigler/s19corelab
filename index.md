@@ -24,6 +24,16 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 <hr>
 
+
+# February 13 (Day 4)
+In-class
+- Media query review
+- HTML/CSS [Exercise](/feb-13)
+- CSS Animations
+
+Assignment
+- For next week, you will use HTML and CSS to create a simple scene and walk cycle (a looping animation) using CSS Animations.
+
 # February 06 (Day 3)
 In-class
 - HTML/CSS Typographic Styles
