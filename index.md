@@ -24,6 +24,17 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 <hr>
 
+# February 20 (Day 5)
+In-class
+- Index and animation walk-around
+- What is javascript? lecture/demo
+- 
+
+Assignment
+- Read Anni Albers: [On Weaving](http://s3.amazonaws.com/arena-attachments/2597972/2065c555bbd04503da9df3d3ec5052dc.pdf?1535137003) (The only chapter in the pdf is *Designing as Visual Organization*) and scroll through the images in the pdf.
+- Create a simple interactive webpage that is based on one of the patterns or images presented in the Anni Albers On Weaving pdf. You may abstract the image as much as you'd like, but be sure to have the original image (as a screenshot) somehow linked or embedded in your design. 
+Your webpage should utilize the `click` event (or any other interaction-based event) to reveal/hide and grow/progress parts of the site. 
+
 
 # February 13 (Day 4)
 In-class
@@ -49,10 +60,6 @@ Assignment
 
 # January 30 (Day 2)
 In-class
-
-<!-- - HTML/CSS Typography Walk-through
-- [Typography Exercise](/type) -->
-
 
 - HTML/CSS Positioning (in-class demo files: [`jan-30.zip`](materials/jan-30.zip))
 - [Positioning Exercise](/squares)
@@ -95,4 +102,3 @@ Assignment
 - [Dev Docs](http://devdocs.io/)
 - [Centering Cheatsheet](https://css-tricks.com/centering-css-complete-guide/)
 - [The Shapes of CSS](https://css-tricks.com/examples/ShapesOfCSS/)
-

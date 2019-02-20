@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+			
+		.newColor{
+			color: red;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="wrapper">wrapper</div>
+
+
+	<script type="text/javascript">
+		window.onload = function(){
+
+			var myDiv = document.getElementById("wrapper")
+
+			var myFunction = function(){
+				myDiv.classList.toggle("newColor")
+				myDiv.style.fontSize = "20px"
+				console.log(myDiv.classList, window)
+			};
+
+			myDiv.onclick = myFunction;
+
+		}
+
+
+
+	</script>
+</body>
+</html>
