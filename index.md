@@ -27,7 +27,7 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 # February 20 (Day 5)
 In-class
 - Index and animation walk-around
-- What is javascript? lecture/demo
+- What is javascript? lecture/demo [demo.zip](/materials/feb-20.zip)
 
 Assignment
 - Read Anni Albers: [On Weaving](http://s3.amazonaws.com/arena-attachments/2597972/2065c555bbd04503da9df3d3ec5052dc.pdf?1535137003) (The only chapter in the pdf is *Designing as Visual Organization*) and scroll through the images in the pdf.

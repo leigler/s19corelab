@@ -1,0 +1,15 @@
+body, html{
+	font-size: 20px;
+}
+
+#wrapper{
+	transition: font-size 0.5s;
+}
+
+#colorDiv{
+	transition: color 2s;
+}
+
+.text-color{
+	color: red;
+}
