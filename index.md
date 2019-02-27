@@ -24,10 +24,20 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 <hr>
 
-# February 20 (Day 5)
+# February 27 (Week 6)
+In-class
+- [Javascript Basics](/javascript-1), Review
+- [Javascript: DOM](/javascript-2)
+- [In-class exercise](/js-exercise-2) and work session
+
+
+Assignment
+- Finish your [exercise](/js-exercise-2) for next week.
+
+# February 20 (Week 5)
 In-class
 - Index and animation walk-around
-- What is javascript? lecture/demo [demo.zip](/materials/feb-20.zip)
+- What is javascript? lecture/demo [demo.zip](/materials/feb-20.zip), [notes](/javascript-1)
 
 Assignment
 - Read Anni Albers: [On Weaving](http://s3.amazonaws.com/arena-attachments/2597972/2065c555bbd04503da9df3d3ec5052dc.pdf?1535137003) (The only chapter in the pdf is *Designing as Visual Organization*) and scroll through the images in the pdf.
@@ -35,7 +45,7 @@ Assignment
 Your webpage should utilize the `click` event (or any other interaction-based event) to reveal/hide and grow/progress parts of the site. 
 
 
-# February 13 (Day 4)
+# February 13 (Week 4)
 In-class
 - Media query review
 - HTML/CSS [Homepage Exercise](/feb-13)
@@ -45,7 +55,7 @@ Assignment
 - For next week, you will use HTML and CSS to create a simple scene and walk cycle (a looping animation) using CSS Animations. Once you're done, please upload your site to github and link to it from your "homepage".
 - Please also continue working on your "homepage" from in class. 
 
-# February 06 (Day 3)
+# February 06 (Week 3)
 In-class
 - HTML/CSS Typographic Styles
 - Media Queries
@@ -57,7 +67,7 @@ Assignment
 	- Each breakpoint should introduce new content. 
 	- Your site should direct the user to experience all three views.
 
-# January 30 (Day 2)
+# January 30 (Week 2)
 In-class
 
 - HTML/CSS Positioning (in-class demo files: [`jan-30.zip`](materials/jan-30.zip))
@@ -66,7 +76,7 @@ In-class
 Assignment
 - Finish your css positioning exercises and upload their respective pages to github. 
 
-# January 22 (Day 1)
+# January 22 (Week 1)
 In-class
 - Introductions
 - Term review/class audit

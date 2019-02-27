@@ -58,6 +58,30 @@ code{
 	padding-right: 0.2rem;
 }
 
+pre{
+	overflow-wrap: break-word;
+	white-space: pre-wrap;
+	font-size: 0.6rem;
+	line-height: 0.8rem;
+	position: relative;
+	box-sizing: border-box;
+	padding: 0.5rem;
+	border-radius: 0.125rem;
+	color: $black;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #fc7474;
+	margin-bottom: 1rem;
+
+	code{
+		font-size: 0.6rem;
+		line-height: 0.8rem;
+		width: 100%;
+		max-width: 100%;
+		overflow-wrap: break-word;
+	}
+}
+
 a{
 	color: white;
 
