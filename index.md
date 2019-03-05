@@ -29,6 +29,7 @@ In-class
 - [Javascript Basics](/javascript-1), Review
 - [Javascript: DOM](/javascript-2)
 - [In-class exercise](/js-exercise-2) and work session
+- [Class Notes](/materials/feb-27.zip)
 
 
 Assignment

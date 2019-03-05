@@ -1,0 +1,35 @@
+*{
+	font-size: 25px;
+}
+
+
+#myElement{
+	color: red;
+}
+
+#myList{
+	color: blue;
+}
+
+
+#myListElement{
+	color: green;
+}
+
+.newClass{
+	font-size: 50px;
+	text-decoration: line-through;
+	background-color: pink;
+}
+
+.button{
+	display: inline-block;
+	background-color: red;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.button:hover{
+	color: white;
+}

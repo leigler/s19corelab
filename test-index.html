@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div id="wrapper"></div>
+
+	<div id="button">click me</div>
+
+<script type="text/javascript">
+	
+	var element = document.createElement("div");
+	element.className = "important"
+
+	var node = document.createTextNode("some text");
+	element.appendChild(node);
+	document.getElementById('wrapper').appendChild(element)
+
+	var text = "t"
+	var mystring = "some text";
+
+	document.getElementById("button").onclick = function(){
+		
+		console.log(mystring)
+		var node2 = document.createTextNode(mystring);
+		
+		element.innerHTML = ""
+		element.appendChild(node2)
+
+		mystring = mystring + text
+
+	}
+
+	//document.getElementById('wrapper').appendChild(newelement)
+
+
+</script>
+</body>
+</html>
