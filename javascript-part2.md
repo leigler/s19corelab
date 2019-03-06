@@ -39,8 +39,21 @@ document.getElementById('body').appendChild(element)
 
 ```
 
+4b) You can also just use javascript's innerHTML: 
 
-4b) Or you can use javascript's template literals, with preset variables: 
+```javascript
+
+var element = document.createElement("div");
+element.className = "important"
+
+element.innerHTML = "<h1>this is an h1</h1>";
+
+document.getElementById('body').appendChild(element)
+
+```
+
+
+4c) Or you can use javascript's template literals, with preset variables: 
 
 ```javascript
 

@@ -24,6 +24,16 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 <hr>
 
+# March 6 (Week 7)
+In-class
+- Javascript functions and DOM manipulation review
+- [Javascript Arrays, While and For loops](/javascript-3)
+- In-class [exercise](/js-exercise-3)
+
+Assignment
+- Finish your exercise and push it to github for next week. 
+- Prepare your Studio Collections assignment for a work session next week.
+
 # February 27 (Week 6)
 In-class
 - [Javascript Basics](/javascript-1), Review
