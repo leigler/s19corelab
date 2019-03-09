@@ -27,7 +27,7 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 # March 6 (Week 7)
 In-class
 - Javascript functions and DOM manipulation review
-- [Javascript Arrays, While and For loops](/javascript-3)
+- [Javascript Arrays, While and For loops](/javascript-3) and [`in-class files.zip`](/materials/march-06.zip)
 - In-class [exercise](/js-exercise-3)
 
 Assignment
