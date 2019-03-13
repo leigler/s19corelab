@@ -24,6 +24,14 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 <hr>
 
+# March 13 (Week 8)
+In-class
+- Javascript Review
+- Work Session for the Studio Collection assignment
+
+Assignment
+- Over break, review the demo notes and exercises for this class. Are there parts that are still unclear? What exercises would be helpful to iterate on? For next class, take a moment to step back into a few of the exercises for practice. What techniques from javascript can you continue to elaborate/experiment with? What css can you improve from your earlier exercises? Is there a visual language that you can apply to all exercises to make them more cohesive? Upon your return, have your exercises available for viewing on github. 
+
 # March 6 (Week 7)
 In-class
 - Javascript functions and DOM manipulation review
