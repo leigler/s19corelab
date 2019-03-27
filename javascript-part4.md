@@ -13,6 +13,7 @@ permalink: /jquery/
 ## Table of Contents
 - [Javascript Review](#javascript-review)
 - [jQuery](#jquery)
+- [Demo Files](/materials/03-27.zip)
 - [Resources](#resources)
 
 # Javascript Review

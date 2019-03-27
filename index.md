@@ -31,6 +31,7 @@ In-class
 - [Reviewing excercises](https://docs.google.com/spreadsheets/d/1zE5ivKD0-lFiQn0KuALmsSwywqHgJrVA0C6XDJYLLOI/edit#gid=0)
 - Javascript review
 - [jQuery introduction](/jquery)
+- [Javascript and jQuery Demo Files](/materials/03-27.zip)
 
 Assignment
 - Find a moment of Spring around Parsons or your apartment. Using jQuery, create a simple interactive interpretation of it. You should use at least 3 jQuery methods. 
