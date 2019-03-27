@@ -492,4 +492,3 @@ jQuery's `each` function has similar potential:
 
 - [Manipulating jQuery selections](https://api.jquery.com/category/manipulation/)
 - [CSS with jQuery](https://api.jquery.com/category/css/)
-- [Demo Files](/assets/files/sept-28-js-jquery.zip)
