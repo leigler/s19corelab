@@ -24,6 +24,17 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 <hr>
 
+# March 27 (Week 9)
+Welcome back!
+
+In-class
+- [Reviewing excercises](https://docs.google.com/spreadsheets/d/1zE5ivKD0-lFiQn0KuALmsSwywqHgJrVA0C6XDJYLLOI/edit#gid=0)
+- Javascript review
+- [jQuery introduction](/jquery)
+
+Assignment
+- Find a moment of Spring around Parsons or your apartment. Using jQuery, create a simple interactive interpretation of it. You should use at least 3 jQuery methods. 
+
 # March 13 (Week 8)
 In-class
 - Javascript Review
