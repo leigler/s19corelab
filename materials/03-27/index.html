@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+	<div id="myElement">Hello world</div>
+
+
+	<script type="text/javascript">
+		
+		var myFunction = function(myNumber, myOtherNumber){
+			
+			if(myNumber < myOtherNumber){
+				return myOtherNumber - myNumber
+			}else{
+				return myNumber - myOtherNumber
+			}
+		}
+
+		var sum = myFunction(4, 10);
+		var otherResult = myFunction(51, 44);
+		var finalResult = myFunction(sum, otherResult);
+		// console.log(finalResult)
+
+
+
+		// myArray[0]
+
+		var myObject = {
+			"key" : "value",
+			"firstname" : "Lukas",
+			"lastname" : "EH",
+			"class" : ["1", "2"]
+		};
+
+		var myObject2 = {
+			key : "value",
+			"firstname" : "John",
+			"lastname" : "Smith",
+			"class" : ["1", "2"]
+		};
+
+
+		var myArray = [myObject, myObject2];
+
+
+		for (var i = 0; i < myArray.length; i++) {
+			console.log(myArray[i].firstname)
+		}
+
+		document.getElementById("myElement").innerHTML = "goodbye"
+		myObject.lastname = "Eigler-Harding"; // updating an object's value via it's key
+		// console.log(myObject.lastname)
+
+
+
+
+	</script>
+
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		
+		#second_div{
+			transition: background-color 1.5s;
+		}
+
+		.background{
+			background-color: blue;
+
+		}
+
+		.mysquare{
+			width: 20px;
+			height: 20px;
+			background-color: pink;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="myelements mydivs" id="second_div">helloo jquery</div>
+
+	<h1 class="myelements ">this is about jquery</h1>
+	<div class="myelements mydivs" id="first_div">helloo jquery</div>
+	<div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+		<div class="mysquare"></div>
+	</div>
+
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript">
+		$(window).ready(function(){
+
+			// var myElement = document.getElementById("first_div");
+			// console.log(myElement)
+
+			var myFirstDiv = $("#first_div, h1");
+			var myContent = myFirstDiv.html();
+			var myCSS = {
+				"background-color" : "red",
+				"font-size" : "100px"
+			};
+			myFirstDiv.css(myCSS).append("<a>a link</a>");
+
+			// animate and chaining jquery methods
+			$("#second_div").css({"background-color" : "green"}).animate({
+				opacity : 0.5,
+				fontSize : "40px"
+			},
+			1500,
+			function(){
+				
+				$(this).hide()
+
+			})
+
+			$("html").animate({
+		        scrollTop: 600
+		    }, 1500 )
+
+
+			console.log($(".myelements"))
+
+
+			$(".myelements").css({"font-family" : "helvetica"})
+
+			var rotation = 0;
+
+			$(".mysquare").each(function(){
+
+				$(this).css({"transform" : "rotate(" + rotation +  "deg)"})
+
+				$(this).html($(this).index())
+
+				rotation = rotation + 30;
+
+			})
+
+
+			$(".mysquare")
+			.mouseenter(function(){
+				$(this).css({"background-color" : "blue"})
+
+			})
+			.mouseleave(function(){
+				$(this).css({"background-color" : "pink"})
+			})
+			.click(function(){
+
+				$(this).animate({
+					width: "100px"
+				}, 1000)
+
+			})
+
+
+			$(window).scroll(function(){
+				console.log($(this).scrollTop(),
+							$("html").outerHeight() - $(window).innerHeight())
+
+				$("body").css({"opacity" : 1 - ($(this).scrollTop() / ($("html").outerHeight() - $(window).innerHeight()))})
+
+			})
+
+			$(window).resize(function(){
+				
+				console.log($(window).innerWidth(), $(window).innerHeight())
+			})
+
+
+		})
+	</script>
+
+</body>
+</html>

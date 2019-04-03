@@ -24,6 +24,17 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 <hr>
 
+# April 3 (Week 10)
+In-class
+- jQuery review: click, keyboard, scroll [`april-3.zip`](/materials/april-3.zip)
+- setTimeout, setInterval
+- jQuery March 27 review/rebuilding
+- Introduction of [Javascript Libraries](/libraries), Greensock animation
+
+Assignment
+- Isolate and identify each function of your Game assignment. For next class, bring in a list of functions you will need to build written out is pseudo-code. Additionally, build at least one of these functions out on it's own html page.
+
+
 # March 27 (Week 9)
 Welcome back!
 
