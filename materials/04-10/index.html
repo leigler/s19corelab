@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		
+		#ouranimation{
+			width: 10px;
+			height: 10px;
+			background-color: red;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="ouranimation"></div>
+
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="TweenMax.min.js"></script>
+<script type="text/javascript">
+		// set
+		// TweenMax.set($("#ouranimation"), {delay: 1, y: 100})
+		// to
+		// TweenMax.to($("#ouranimation"), 1, {delay: 1, y: 100})
+		// fromTo
+			// TweenMax.fromTo($("#ouranimation"), 1, {y: 100}, {delay: 1, y: 150})
+		// from
+			// TweenMax.from($("#ouranimation"), 1, {y: 100})
+
+		//timeline
+
+		var thistimeline = function(){
+			var ourtimeline = new TimelineMax({repeat:0, repeatDelay:1});
+			ourtimeline.add(TweenMax.to($("#ouranimation"), 0.5, {x: 100}))
+			ourtimeline.add(TweenMax.to($("#ouranimation"), 1, {x: 50}))
+		}
+
+		// thistimeline()
+
+
+
+</script>
+</body>
+</html>

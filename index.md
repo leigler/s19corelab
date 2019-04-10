@@ -24,6 +24,15 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 <hr>
 
+# April 10 (Week 11)
+In-class
+- Small Group Critique
+- [Greensock animation](https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/TextPlugin.min.js) Animation Demo
+- Greensock exercise: an introduction animation to your game
+
+Assignment
+- Continue designing/developing your introduction animation to your game.
+
 # April 3 (Week 10)
 In-class
 - jQuery review: click, keyboard, scroll [`april-3.zip`](/materials/april-3.zip)
