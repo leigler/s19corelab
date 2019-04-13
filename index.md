@@ -27,11 +27,12 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 # April 10 (Week 11)
 In-class
 - Small Group Critique
-- [Greensock animation](https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/TextPlugin.min.js) Animation Demo
+- [Greensock animation Documentation](https://greensock.com/docs/TimelineMax), [Greensock CDN](https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js), [Greensock Easing Visualizer](https://greensock.com/ease-visualizer)
+- Greensock Animation Demo: [`april-10.zip`](/materials/april-10.zip)
 - Greensock exercise: an introduction animation to your game
 
 Assignment
-- Continue designing/developing your introduction animation to your game.
+- Continue designing/developing your introduction animation to your game. Consider how you might use the introduction to illustrate the functionality and mood of your game. Also consider how you might use the Greensock library to sequence your animation.
 
 # April 3 (Week 10)
 In-class
