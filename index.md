@@ -24,6 +24,15 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 <hr>
 
+# April 17 (Week 12)
+In-class
+- Debugging Review
+- Game work session with individual check-ins
+
+Assignment
+- Continue working on your game.
+
+
 # April 10 (Week 11)
 In-class
 - Small Group Critique
