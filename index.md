@@ -24,9 +24,16 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 <hr>
 
+# April 24 (Week 13)
+In-class
+- Check-ins
+
+Assignment
+- Continue working on your game. For next week, your project should be 90% finished. 
+
 # April 17 (Week 12)
 In-class
-- Debugging Review
+- [Debugging Review](/materials/april-04-17.zip)
 - Game work session with individual check-ins
 
 Assignment
