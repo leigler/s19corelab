@@ -21,13 +21,14 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 - [Syllabus](https://docs.google.com/document/d/1dYjJsQuJBGW6vJDbMiICcAtm5_gX6g1WQReThJnyZJo/edit?usp=sharing)
 - [Core Studio Interaction](http://devinwashburn.com/coreinteraction/)
-
+- [Student Index](https://docs.google.com/spreadsheets/d/1zE5ivKD0-lFiQn0KuALmsSwywqHgJrVA0C6XDJYLLOI/edit?usp=sharing)
 <hr>
 
 # May 8 (Week 15)
 In-class
 - Course Evaluations
 - Check-ins
+- [Github Link Submissions via this Spreadsheet](https://docs.google.com/spreadsheets/d/1zE5ivKD0-lFiQn0KuALmsSwywqHgJrVA0C6XDJYLLOI/edit?usp=sharing)
 
 &ldquo;Assignment&rdquo;
 - Thank you for a great semester, have a wonderful summer!
