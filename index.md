@@ -24,6 +24,19 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 <hr>
 
+# May 8 (Week 15)
+In-class
+- Course Evaluations
+- Check-ins
+
+&ldquo;Assignment&rdquo;
+- Thank you for a great semester, have a wonderful summer!
+
+# May 1 (Week 14)
+In-class
+- Check-ins
+
+
 # April 24 (Week 13)
 In-class
 - Check-ins
